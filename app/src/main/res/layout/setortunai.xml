@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/ic_back"/>
+
+    <TextView
+        android:id="@+id/setor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="140dp"
+        android:text="Setor Tunai"
+        android:textSize="19dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/rt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:layout_marginLeft="20dp"
+        android:text="Rekening Tujuan"
+        android:textSize="19dp"
+        android:textColor="#AE3949AB"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="140dp"
+        android:text="Lanjutkan"
+        android:textSize="19dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/tj"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/rt"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="#1E00ACC1"
+        android:drawablePadding="20dp"
+        android:padding="28dp" />
+
+    <ImageView
+        android:id="@+id/std"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/logo"/>
+
+</RelativeLayout>

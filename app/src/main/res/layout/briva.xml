@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg3">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/ic_back"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="23dp"
+        android:iconifiedByDefault="false"
+        android:text="BRIVA"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Pembayaran Terakhir"
+        android:textColor="#020202"
+        android:textSize="17dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="185dp"
+        android:text="Daftar Tersimpan"
+        android:textColor="#020202"
+        android:textSize="17dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/sc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/search"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="60dp"
+        android:text="Cari nama disini"/>
+
+    <EditText
+        android:id="@+id/cr"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="#A6FFFFFF" />
+
+
+</RelativeLayout>

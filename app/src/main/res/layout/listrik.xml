@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/listrik">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/ic_back"/>
+    <TextView
+        android:id="@+id/listrik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Listrik"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="260dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Cari Nama  di sini...." />
+
+    <Button
+        android:id="@+id/cetakButton"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="#0672C8"
+        android:layout_marginTop="164dp"
+        android:layout_marginLeft="320dp"
+        android:text="Cetak Token"
+        android:textSize="14dp"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="225dp"
+        android:text="Sumber Dana"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="Tambah Nomer Baru"
+        android:textSize="20dp"
+        android:layout_marginLeft="35dp"
+        android:background="#0975CA"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:id="@+id/loginButton"
+        android:layout_marginTop="645dp"/>
+</RelativeLayout>

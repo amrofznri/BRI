@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pulsa">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/ic_back"/>
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/search"
+        android:layout_marginTop="190dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="cari teman disini..." />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:iconifiedByDefault="false"
+        android:text="Pulsa dan Paket Data"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Tambah Nomer Baru"
+        android:layout_marginLeft="34dp"
+        android:id="@+id/loginButton"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="650dp"/>
+
+
+</RelativeLayout>

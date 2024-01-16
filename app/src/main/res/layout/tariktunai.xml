@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/tarik3">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/ic_back"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="23dp"
+        android:iconifiedByDefault="false"
+        android:text="Tarik Tunai"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Sumber Dana"
+        android:textColor="#08628A"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/my_image_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="106dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/cr" />
+    <ImageView
+        android:id="@+id/my_image_view2"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:src="@drawable/tt"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="184dp"
+        android:layout_marginLeft="34dp"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_keyboard"
+        android:layout_marginTop="188dp"
+        android:layout_marginLeft="310dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_keyboard"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="310dp"/>
+
+
+
+</RelativeLayout>
